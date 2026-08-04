@@ -1,1 +1,1 @@
-# PLACEHOLDER — replace this file with the exact personalized app-ads.txt line supplied by Google AdMob before launch.
+google.com, pub-4345039832876423, DIRECT, f08c47fec0942fa0
