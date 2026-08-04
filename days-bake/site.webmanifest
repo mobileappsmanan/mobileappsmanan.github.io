@@ -1,0 +1,12 @@
+{
+  "name": "Day's Bake",
+  "short_name": "Day's Bake",
+  "description": "A clear, offline date board for bakery teams.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBF1EA",
+  "theme_color": "#FBF1EA",
+  "icons": [
+    {"src": "assets/images/app-icon.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

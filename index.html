@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FBF1EA">
+  <meta name="description" content="Focused Android apps by Manan.">
+  <meta property="og:title" content="Mobile Apps by Manan">
+  <meta property="og:description" content="Focused Android apps built to make everyday work clearer.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/days-bake-icon.png">
+  <title>Mobile Apps by Manan</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#apps">Skip to apps</a>
+
+  <header class="site-header">
+    <a class="collection-mark" href="#apps" aria-label="Mobile Apps by Manan home">
+      <svg viewBox="0 0 42 42" aria-hidden="true">
+        <rect x="3" y="3" width="14" height="14" rx="4"></rect>
+        <rect x="25" y="3" width="14" height="14" rx="4"></rect>
+        <rect x="3" y="25" width="14" height="14" rx="4"></rect>
+        <path d="M27 31h10M32 26v10"></path>
+      </svg>
+    </a>
+
+    <nav aria-label="Primary navigation">
+      <a href="#apps">Apps</a>
+      <button type="button" data-open-dialog="about-dialog">About</button>
+      <a href="mailto:REPLACE_WITH_YOUR_EMAIL">Contact</a>
+    </nav>
+  </header>
+
+  <main class="split-shell">
+    <section class="copy-pane" aria-live="polite">
+      <div class="copy-block">
+        <p class="section-label" id="active-label">Mobile Apps by Manan</p>
+
+        <h1 id="active-headline">
+          <span>Bakery dates.</span>
+          <span>Without the guesswork.</span>
+        </h1>
+
+        <p class="active-description" id="active-description">
+          Day's Bake keeps label dates and expiring bakery items clear,
+          offline, and account-free.
+        </p>
+
+        <div class="active-meta" id="active-meta" aria-label="Selected app details">
+          <span>Android</span>
+          <span>Offline-first</span>
+          <span>Coming soon</span>
+        </div>
+      </div>
+
+      <div class="copy-foot">
+        <span id="active-count">01 / 01</span>
+        <span>Focused tools for practical work.</span>
+      </div>
+    </section>
+
+    <section class="gallery-pane" id="apps" aria-label="App collection">
+      <article
+        class="app-scene"
+        data-app-name="Day's Bake"
+        data-label="Mobile Apps by Manan"
+        data-headline-one="Bakery dates."
+        data-headline-two="Without the guesswork."
+        data-description="Day's Bake keeps label dates and expiring bakery items clear, offline, and account-free."
+        data-meta="Android|Offline-first|Coming soon"
+        data-background="#2D241F"
+        data-accent="#C0757D"
+      >
+        <div class="scene-inner">
+          <a class="phone-link" href="days-bake/" aria-label="Open the Day's Bake website">
+            <div class="phone" aria-hidden="true">
+              <div class="phone-screen">
+                <div class="phone-app-heading">
+                  <div class="phone-icon-frame">
+                    <img src="assets/images/days-bake-icon.png" alt="">
+                  </div>
+                  <p>Day's Bake</p>
+                  <span>Bakery date tracking</span>
+                </div>
+
+                <ul class="phone-feature-list">
+                  <li>
+                    <b>01</b>
+                    <span>
+                      <strong>Label dates</strong>
+                      <small>See the correct date at a glance.</small>
+                    </span>
+                  </li>
+                  <li>
+                    <b>02</b>
+                    <span>
+                      <strong>Expiry tracking</strong>
+                      <small>Keep upcoming pull dates visible.</small>
+                    </span>
+                  </li>
+                  <li>
+                    <b>03</b>
+                    <span>
+                      <strong>Calendar overview</strong>
+                      <small>Review bakery activity by day.</small>
+                    </span>
+                  </li>
+                  <li>
+                    <b>04</b>
+                    <span>
+                      <strong>Private by default</strong>
+                      <small>Offline and without an account.</small>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+          <a class="app-product-card" href="days-bake/" aria-label="Visit the Day's Bake website">
+            <span class="card-index">01</span>
+
+            <div class="card-icon-frame">
+              <img src="assets/images/days-bake-icon.png" alt="">
+            </div>
+
+            <div class="card-body">
+              <p class="card-category">Bakery operations</p>
+              <h2>Day's Bake</h2>
+              <p>
+                A calm, offline date board and expiry tracker for grocery
+                bakery teams.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <span>Android · Coming soon</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <dialog id="about-dialog" class="about-dialog">
+    <button type="button" class="dialog-close" data-close-dialog aria-label="Close">×</button>
+    <p class="dialog-label">About</p>
+    <h2>Small apps. Clear reasons to exist.</h2>
+    <p>
+      Mobile Apps by Manan is a growing collection of focused Android tools.
+      Each app is designed around one practical problem and kept deliberately
+      simple.
+    </p>
+  </dialog>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

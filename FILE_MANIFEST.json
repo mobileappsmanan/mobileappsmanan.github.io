@@ -1,0 +1,147 @@
+[
+  {
+    "path": ".nojekyll",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "404.html",
+    "bytes": 821,
+    "sha256": "8fdf8b1ae0c85880fae56d3a979fb1c3168b893bddd471a90ac9010b5b321bab"
+  },
+  {
+    "path": "PLACEHOLDERS.md",
+    "bytes": 296,
+    "sha256": "b330bc67e9a8d09c5dc8cf39d58c8bd3f04b80b86e07155ce5b926a6037f7342"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1411,
+    "sha256": "4f77536a1f9b24ac6e09667341d7f32a4a62068420087b80a90d6d92df4345f4"
+  },
+  {
+    "path": "app-ads.txt",
+    "bytes": 121,
+    "sha256": "7133b1a2525def077ab2c2d935f580612a2954ac609dcee244f8f5cd6efaf915"
+  },
+  {
+    "path": "assets/css/styles.css",
+    "bytes": 13304,
+    "sha256": "d73c505a46b10de7876bdf2d2720a61d377e1e4bba721bb7d6712ff678ee8835"
+  },
+  {
+    "path": "assets/images/days-bake-icon.png",
+    "bytes": 101751,
+    "sha256": "a39900aefe9eb7615925ae2fc85b5356f97547a8786f4fc577837eb069775165"
+  },
+  {
+    "path": "assets/images/favicon.svg",
+    "bytes": 433,
+    "sha256": "21fbd9507313082814c0a1ca890e5bb641caff41062940d3f828994c7020266f"
+  },
+  {
+    "path": "assets/js/main.js",
+    "bytes": 2526,
+    "sha256": "bba8d7abcc8b9d0b1e8e3c997ff782008f7a9a7099465313a7df7fc121964246"
+  },
+  {
+    "path": "days-bake/404.html",
+    "bytes": 587,
+    "sha256": "1d1a591a73dc9befaa26e6d0de17de4d7186c2673efe6642dfb735dbe5df731a"
+  },
+  {
+    "path": "days-bake/PLACEHOLDERS.md",
+    "bytes": 480,
+    "sha256": "b1f8bdd84e8aa0461edf4b2323f850b12812463b064d08efc00e0674e841106b"
+  },
+  {
+    "path": "days-bake/README.md",
+    "bytes": 1800,
+    "sha256": "3756640d5551268b43caa8b230815191f5685323dc758ea45ff985dddef242c8"
+  },
+  {
+    "path": "days-bake/assets/css/styles.css",
+    "bytes": 11249,
+    "sha256": "07ea7c0eeddd0ff857c3554220a78f2ce84f8218e28a47676c7aa97413c10501"
+  },
+  {
+    "path": "days-bake/assets/images/app-icon.png",
+    "bytes": 101751,
+    "sha256": "a39900aefe9eb7615925ae2fc85b5356f97547a8786f4fc577837eb069775165"
+  },
+  {
+    "path": "days-bake/assets/images/app-mark.png",
+    "bytes": 328201,
+    "sha256": "f791d99911a90af81dd87b552ca9d0040c1859e57154e9643de701c235d94359"
+  },
+  {
+    "path": "days-bake/assets/images/apple-touch-icon.png",
+    "bytes": 18376,
+    "sha256": "58a08c8e7450c0dba78b5e02846264d17f1da5f7f669ecd8f19473b27c0b925b"
+  },
+  {
+    "path": "days-bake/assets/images/bakery-backdrop.svg",
+    "bytes": 2139,
+    "sha256": "56a68045a6fc2fc023975f3bbe4970621108bc683ef03fb641aaa4e0b108ee8c"
+  },
+  {
+    "path": "days-bake/assets/images/favicon-16.png",
+    "bytes": 608,
+    "sha256": "6119a0f70967abce3272e60de4bc093eeb96385b60836ae51d77cf5465843556"
+  },
+  {
+    "path": "days-bake/assets/images/favicon-32.png",
+    "bytes": 1452,
+    "sha256": "c824612594126d1a66d85ddd38d6de454d4fd09ad87ac22d9ba9f43e9715ee3d"
+  },
+  {
+    "path": "days-bake/assets/images/og-card.png",
+    "bytes": 75777,
+    "sha256": "c02bef1be978cd4b661218b7ba485930f816efc46ed1cb1a051ba09941a0c9b7"
+  },
+  {
+    "path": "days-bake/assets/js/main.js",
+    "bytes": 432,
+    "sha256": "8d2f8b9ca2525d0a3fea273e9856358596bebfcff756a732b37a2132e3a95d82"
+  },
+  {
+    "path": "days-bake/index.html",
+    "bytes": 6034,
+    "sha256": "b92a370ddefa9fc281ded2bf777f4b669de9ee28ea664622e1caa6720b2d2abf"
+  },
+  {
+    "path": "days-bake/privacy.html",
+    "bytes": 5801,
+    "sha256": "4e32511795217d2fe72de4d596d8924c077c081e0dad6a378e0b0cd1ee6492ad"
+  },
+  {
+    "path": "days-bake/robots.txt",
+    "bytes": 23,
+    "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
+  },
+  {
+    "path": "days-bake/site.webmanifest",
+    "bytes": 333,
+    "sha256": "23363e43cea372bb3f8cd465852a22ab714c7022ec223f58d5f47abc87b98eb5"
+  },
+  {
+    "path": "days-bake/support.html",
+    "bytes": 2797,
+    "sha256": "87b7b502885b7565bc0c8e296b4f3948690101b3393ad0cfc8fee0b9bed2ff4c"
+  },
+  {
+    "path": "index.html",
+    "bytes": 5871,
+    "sha256": "f2ed2aa82924c97dbd756a9cd4f7fb8c91ef1618dd5113b30b4dfdca779add71"
+  },
+  {
+    "path": "robots.txt",
+    "bytes": 67,
+    "sha256": "aa36083fd2a30c4c6c7595cbc173b1ac619686075d3560d0220cf369718a2f06"
+  },
+  {
+    "path": "site.webmanifest",
+    "bytes": 306,
+    "sha256": "b12dfdfc18a79abbc44ba597497f31e57d5b0f0a373546ad07b1400394202ec8"
+  }
+]

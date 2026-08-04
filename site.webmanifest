@@ -1,0 +1,15 @@
+{
+  "name": "Mobile Apps by Manan",
+  "short_name": "Manan Apps",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBF1EA",
+  "theme_color": "#FBF1EA",
+  "icons": [
+    {
+      "src": "assets/images/days-bake-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
