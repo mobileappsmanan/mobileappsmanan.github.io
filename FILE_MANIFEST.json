@@ -11,13 +11,18 @@
   },
   {
     "path": "PLACEHOLDERS.md",
-    "bytes": 296,
-    "sha256": "b330bc67e9a8d09c5dc8cf39d58c8bd3f04b80b86e07155ce5b926a6037f7342"
+    "bytes": 516,
+    "sha256": "9eb966802ca59fcce8bf06f4a2293a555643056ccbd69da77c15aacf908ecae9"
+  },
+  {
+    "path": "PRIVACY_POLICY_UPDATE.md",
+    "bytes": 599,
+    "sha256": "eb5783732f3de20300d103647938ef0a4864fa6a3e437b7b0194db261bca2e84"
   },
   {
     "path": "README.md",
-    "bytes": 1411,
-    "sha256": "4f77536a1f9b24ac6e09667341d7f32a4a62068420087b80a90d6d92df4345f4"
+    "bytes": 1504,
+    "sha256": "4d306d2e2c275167a7b8f169668b6e6c0d06fc74520198b0ff215b69c72332ac"
   },
   {
     "path": "app-ads.txt",
@@ -51,8 +56,8 @@
   },
   {
     "path": "days-bake/PLACEHOLDERS.md",
-    "bytes": 480,
-    "sha256": "b1f8bdd84e8aa0461edf4b2323f850b12812463b064d08efc00e0674e841106b"
+    "bytes": 589,
+    "sha256": "3952cd6d3419f363ef82a49de4d9770a2e8fc7c85727896b71df6960dbc0c924"
   },
   {
     "path": "days-bake/README.md",
@@ -111,8 +116,8 @@
   },
   {
     "path": "days-bake/privacy.html",
-    "bytes": 5801,
-    "sha256": "4e32511795217d2fe72de4d596d8924c077c081e0dad6a378e0b0cd1ee6492ad"
+    "bytes": 8317,
+    "sha256": "8ec59e39b20b538f5440513a4b095016ba664e2a00bdd53fefff618b7f17ea77"
   },
   {
     "path": "days-bake/robots.txt",
@@ -126,13 +131,13 @@
   },
   {
     "path": "days-bake/support.html",
-    "bytes": 2797,
-    "sha256": "87b7b502885b7565bc0c8e296b4f3948690101b3393ad0cfc8fee0b9bed2ff4c"
+    "bytes": 3159,
+    "sha256": "1335349e1776fe8dae26ec0c93d3793ecff87b345e63daa760ea9267eace5c41"
   },
   {
     "path": "index.html",
-    "bytes": 5871,
-    "sha256": "f2ed2aa82924c97dbd756a9cd4f7fb8c91ef1618dd5113b30b4dfdca779add71"
+    "bytes": 5874,
+    "sha256": "35f23e528843bc41e4e2aaff60a45f26b3751ce9bdeaa36fb239f0f77aba78de"
   },
   {
     "path": "robots.txt",

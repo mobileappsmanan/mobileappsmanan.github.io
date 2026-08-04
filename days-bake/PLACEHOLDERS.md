@@ -1,13 +1,11 @@
-# Day's Bake website placeholders
+# Day's Bake website release checks
 
-Replace these before the privacy policy is used in Play Console or AdMob:
+The developer name, privacy contact, support contact, effective date and
+target-audience wording have been completed.
 
-- `[ADD EFFECTIVE DATE]`
-- `[ADD DEVELOPER OR LEGAL NAME]`
-- `[ADD PRIVACY EMAIL]`
-- `[CONFIRM FINAL TARGET-AUDIENCE WORDING]`
-- `[ADD SUPPORT EMAIL]`
-- `[ADD RESPONSE-TIME EXPECTATION]`
-- `app-ads.txt` placeholder comment with the exact personalized AdMob line
+Still review these items before release:
 
-Also review the advertising section after the final production Mobile Ads and UMP configuration is frozen.
+- Replace the root `app-ads.txt` placeholder with the exact personalised line supplied by Google AdMob.
+- Confirm the final production Google Mobile Ads and UMP configuration still matches the privacy policy.
+- Add the final Google Play listing URL after the app is published, where useful.
+- Update the privacy-policy effective date whenever the policy or data practices materially change.

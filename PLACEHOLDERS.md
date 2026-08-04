@@ -1,8 +1,16 @@
-# Placeholders
+# Remaining website release checks
 
-Before publishing the final version:
+Resolved:
 
-1. Replace `REPLACE_WITH_YOUR_EMAIL` in the root `index.html`.
-2. Review the copyright/contact details in the Day's Bake subsite.
-3. Replace the root `app-ads.txt` placeholder with the exact AdMob line.
-4. Review `days-bake/PLACEHOLDERS.md`.
+- Root contact email
+- Day's Bake developer name
+- Day's Bake privacy email
+- Day's Bake support email
+- Privacy-policy effective date
+- Target-audience wording
+
+Still required:
+
+1. Replace the root `app-ads.txt` placeholder with the exact personalised line supplied by Google AdMob.
+2. Confirm the final production advertising and consent configuration still matches the published policy.
+3. Add the final Google Play listing URL after publication, where appropriate.

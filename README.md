@@ -28,13 +28,11 @@ Upload the **contents inside this folder** to the root of your
 
 Do not upload the enclosing folder as a nested directory.
 
-## Required edit
+## Remaining release edit
 
-Replace this placeholder in `index.html`:
+The developer and support email is configured as `mobileapps.manan@gmail.com`.
 
-`REPLACE_WITH_YOUR_EMAIL`
-
-Review `app-ads.txt` before AdMob verification.
+Replace the root `app-ads.txt` placeholder with the exact personalised line supplied by Google AdMob before verification.
 
 ## Adding another app later
 
