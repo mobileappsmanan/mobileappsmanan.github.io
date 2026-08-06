@@ -3,242 +3,134 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#FBF1EA">
-  <meta name="description" content="Focused Android apps by Manan.">
-  <meta property="og:title" content="Mobile Apps by Manan">
-  <meta property="og:description" content="Focused Android apps built to make everyday work clearer.">
+  <meta name="theme-color" content="#F8F0E8">
+  <meta name="description" content="Paws Above is a playful rooftop endless runner for Android.">
+  <meta property="og:title" content="Paws Above">
+  <meta property="og:description" content="One more jump. One more chance.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/days-bake-icon.png">
-  <title>Mobile Apps by Manan</title>
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="assets/images/og-card.png">
+  <title>Paws Above — One more jump</title>
+  <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#apps">Skip to apps</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <a class="collection-mark" href="#apps" aria-label="Mobile Apps by Manan home">
-      <svg viewBox="0 0 42 42" aria-hidden="true">
-        <rect x="3" y="3" width="14" height="14" rx="4"></rect>
-        <rect x="25" y="3" width="14" height="14" rx="4"></rect>
-        <rect x="3" y="25" width="14" height="14" rx="4"></rect>
-        <path d="M27 31h10M32 26v10"></path>
-      </svg>
-    </a>
+  <main id="main">
+    <section class="hero-shell" aria-labelledby="hero-title">
+      <div class="hero-card">
+        <nav class="topbar" aria-label="Primary navigation">
+          <div class="nav-left">
+            <a href="../index.html">All apps</a>
+            <a href="#story">Story</a>
+            <a href="#features">What it does</a>
+          </div>
+          <a class="brand-mini" href="index.html" aria-label="Paws Above home">PAWS ABOVE</a>
+          <button class="menu-button" type="button" data-menu aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+          <div class="nav-right">
+            <a href="privacy.html">Privacy</a>
+            <a href="support.html">Support</a>
+          </div>
+        </nav>
 
-    <nav aria-label="Primary navigation">
-      <a href="#apps">Apps</a>
-      <button type="button" data-open-dialog="about-dialog">About</button>
-      <a href="mailto:mobileapps.manan@gmail.com">Contact</a>
-    </nav>
-  </header>
-
-  <main class="split-shell">
-    <section class="copy-pane" aria-live="polite">
-      <div class="copy-block">
-        <p class="section-label" id="active-label">Mobile Apps by Manan</p>
-
-        <h1 id="active-headline">
-          <span>Bakery dates.</span>
-          <span>Without the guesswork.</span>
-        </h1>
-
-        <p class="active-description" id="active-description">
-          Day's Bake keeps label dates and expiring bakery items clear,
-          offline, and account-free.
-        </p>
-
-        <div class="active-meta" id="active-meta" aria-label="Selected app details">
-          <span>Android</span>
-          <span>Offline-first</span>
-          <span>Coming soon</span>
+        <div class="hero-center">
+          <h1 id="hero-title" class="hero-word">PAWS</h1>
+          <div class="icon-stage" aria-hidden="true">
+            <img src="assets/images/app-mark.png" alt="">
+          </div>
+          <p class="hero-word" aria-hidden="true">ABOVE</p>
         </div>
-      </div>
 
-      <div class="copy-foot">
-        <span id="active-count">01 / 02</span>
-        <span>Focused tools for practical work.</span>
+        <div class="hero-foot">
+          <p>Rooftop endless runner · Android</p>
+          <p class="center-note">A quick, playful run above the city. No account. Local high scores. One more jump is always close.</p>
+          <a class="discover" href="#story">Follow the run ↓</a>
+        </div>
       </div>
     </section>
 
-    <section class="gallery-pane" id="apps" aria-label="App collection">
-      <article
-        class="app-scene"
-        data-app-name="Day's Bake"
-        data-label="Mobile Apps by Manan"
-        data-headline-one="Bakery dates."
-        data-headline-two="Without the guesswork."
-        data-description="Day's Bake keeps label dates and expiring bakery items clear, offline, and account-free."
-        data-meta="Android|Offline-first|Coming soon"
-        data-background="#2D241F"
-        data-accent="#C0757D"
-      >
-        <div class="scene-inner">
-          <a class="phone-link" href="days-bake/" aria-label="Open the Day's Bake website">
-            <div class="phone" aria-hidden="true">
-              <div class="phone-screen">
-                <div class="phone-app-heading">
-                  <div class="phone-icon-frame">
-                    <img src="assets/images/days-bake-icon.png" alt="">
-                  </div>
-                  <p>Day's Bake</p>
-                  <span>Bakery date tracking</span>
-                </div>
+    <section class="section" id="story">
+      <div class="section-inner">
+        <p class="eyebrow">Small paws. Long way down.</p>
+        <p class="display-copy">Leap from candle to candle, use each rescue wisely, and keep the rooftop run moving over the city.</p>
+      </div>
+    </section>
 
-                <ul class="phone-feature-list">
-                  <li>
-                    <b>01</b>
-                    <span>
-                      <strong>Label dates</strong>
-                      <small>See the correct date at a glance.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>02</b>
-                    <span>
-                      <strong>Expiry tracking</strong>
-                      <small>Keep upcoming pull dates visible.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>03</b>
-                    <span>
-                      <strong>Calendar overview</strong>
-                      <small>Review bakery activity by day.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>04</b>
-                    <span>
-                      <strong>Private by default</strong>
-                      <small>Offline and without an account.</small>
-                    </span>
-                  </li>
-                </ul>
-              </div>
+    <section class="section" id="features">
+      <div class="section-inner">
+        <p class="eyebrow">What it does</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <div>
+              <h3>Learn it in seconds</h3>
+              <p>Swipe up for a high jump or down for a shallow one, then aim for the next landing.</p>
             </div>
-          </a>
-
-          <a class="app-product-card" href="days-bake/" aria-label="Visit the Day's Bake website">
-            <span class="card-index">01</span>
-
-            <div class="card-icon-frame">
-              <img src="assets/images/days-bake-icon.png" alt="">
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02</span>
+            <div>
+              <h3>Keep the run alive</h3>
+              <p>Three bed rescues soften missed landings, with an optional rewarded continue after they are gone.</p>
             </div>
-
-            <div class="card-body">
-              <p class="card-category">Bakery operations</p>
-              <h2>Day's Bake</h2>
-              <p>
-                A calm, offline date board and expiry tracker for grocery
-                bakery teams.
-              </p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03</span>
+            <div>
+              <h3>Play without an account</h3>
+              <p>Your tutorial state, SFX preference and high scores remain on the Android device.</p>
             </div>
-
-            <div class="card-footer">
-              <span>Android · Coming soon</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-          </a>
+          </article>
         </div>
-      </article>
+      </div>
+    </section>
 
-
-      <article
-        class="app-scene"
-        data-app-name="Paws Above"
-        data-label="Mobile Apps by Manan"
-        data-headline-one="One more jump."
-        data-headline-two="One more chance."
-        data-description="Paws Above is a quick, playful endless runner where a rooftop cat lands on market candles and chases a new best score."
-        data-meta="Android|Offline play|18+ audience|Coming soon"
-        data-background="#1B2433"
-        data-accent="#F28C82"
-      >
-        <div class="scene-inner">
-          <a class="phone-link" href="paws-above/" aria-label="Open the Paws Above website">
-            <div class="phone" aria-hidden="true">
-              <div class="phone-screen">
-                <div class="phone-app-heading">
-                  <div class="phone-icon-frame">
-                    <img src="assets/images/paws-above-icon.png" alt="">
-                  </div>
-                  <p>Paws Above</p>
-                  <span>Rooftop endless runner</span>
-                </div>
-
-                <ul class="phone-feature-list">
-                  <li>
-                    <b>01</b>
-                    <span>
-                      <strong>Two jump styles</strong>
-                      <small>Swipe up or down to choose the landing.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>02</b>
-                    <span>
-                      <strong>Three rescues</strong>
-                      <small>Recover from a miss and keep the run alive.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>03</b>
-                    <span>
-                      <strong>Fair endless runs</strong>
-                      <small>Keep moving through a carefully tested course.</small>
-                    </span>
-                  </li>
-                  <li>
-                    <b>04</b>
-                    <span>
-                      <strong>Local high scores</strong>
-                      <small>No account is required to play.</small>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </a>
-
-          <a class="app-product-card" href="paws-above/" aria-label="Visit the Paws Above website">
-            <span class="card-index">02</span>
-
-            <div class="card-icon-frame">
-              <img src="assets/images/paws-above-icon.png" alt="">
-            </div>
-
-            <div class="card-body">
-              <p class="card-category">Casual arcade</p>
-              <h2>Paws Above</h2>
-              <p>
-                A playful rooftop runner about timing the next jump and keeping
-                one more run alive.
-              </p>
-            </div>
-
-            <div class="card-footer">
-              <span>Android · Coming soon</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-          </a>
+    <section class="section">
+      <div class="section-inner workflow">
+        <div class="workflow-copy">
+          <p class="eyebrow">A simple rooftop rhythm</p>
+          <h2>Jump. Land. Keep going.</h2>
+          <p>Paws Above keeps the rules small and the next decision clear: choose the jump, watch the arc, and aim for the next candle.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="privacy.html">Read the privacy policy</a>
+            <a class="button button-secondary" href="support.html">Get support</a>
+          </div>
         </div>
-      </article>
+
+        <figure class="run-board shot-board">
+          <img src="assets/images/gameplay-shot.png" alt="Gameplay screenshot from Paws Above showing the rooftop cat mid-jump between candles at night.">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section privacy-band">
+      <div class="section-inner privacy-layout">
+        <div>
+          <p class="eyebrow">Local game progress</p>
+          <h2 class="simple-title">No account. No cloud save.</h2>
+          <p>High scores, tutorial completion and SFX settings stay on the device. The free version uses Google Mobile Ads for banner and optional rewarded advertising.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="privacy.html">Privacy policy</a>
+            <a class="button button-secondary" href="support.html">Support details</a>
+          </div>
+        </div>
+        <div class="status-mark" aria-label="Preparing for Android testing">ANDROID<br>TESTING NEXT</div>
+      </div>
     </section>
   </main>
 
-  <dialog id="about-dialog" class="about-dialog">
-    <button type="button" class="dialog-close" data-close-dialog aria-label="Close">×</button>
-    <p class="dialog-label">About</p>
-    <h2>Small apps. Clear reasons to exist.</h2>
-    <p>
-      Mobile Apps by Manan is a growing collection of focused Android tools.
-      Each app is designed around one practical problem and kept deliberately
-      simple.
-    </p>
-  </dialog>
-
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© <span data-year></span> Paws Above</span>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+        <span>Google Play · coming soon</span>
+      </div>
+    </div>
+  </footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
