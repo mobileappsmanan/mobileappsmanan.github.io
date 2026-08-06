@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Paws Above sunset skyline</title>
+<desc id="desc">An abstract pixel-inspired sunset over water with a city skyline, three market candles and a cat-shaped jump path.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#276FC8"/>
+    <stop offset="0.48" stop-color="#9A89C8"/>
+    <stop offset="0.78" stop-color="#F28C82"/>
+    <stop offset="1" stop-color="#F6C36E"/>
+  </linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#315E92"/>
+    <stop offset="1" stop-color="#183953"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<circle cx="805" cy="620" r="92" fill="#FFE78D" opacity=".95"/>
+<g fill="#F7B1A9" opacity=".9">
+  <path d="M110 250h170l-28-22h-36l-34-30-38 30h-18z"/>
+  <path d="M1080 170h200l-34-24h-46l-38-34-44 34h-14z"/>
+  <path d="M1190 360h250l-36-28h-54l-48-40-54 40h-22z"/>
+</g>
+<g fill="#4C578B">
+  <rect x="0" y="650" width="80" height="150"/><rect x="92" y="580" width="70" height="220"/>
+  <rect x="175" y="630" width="120" height="170"/><rect x="310" y="530" width="80" height="270"/>
+  <rect x="405" y="605" width="110" height="195"/><rect x="530" y="555" width="65" height="245"/>
+  <rect x="610" y="625" width="130" height="175"/><rect x="755" y="575" width="88" height="225"/>
+  <rect x="858" y="645" width="115" height="155"/><rect x="988" y="535" width="82" height="265"/>
+  <rect x="1085" y="610" width="120" height="190"/><rect x="1220" y="565" width="78" height="235"/>
+  <rect x="1312" y="625" width="118" height="175"/><rect x="1445" y="540" width="78" height="260"/>
+  <rect x="1535" y="590" width="65" height="210"/>
+</g>
+<rect y="790" width="1600" height="210" fill="url(#water)"/>
+<g stroke="#F7B36E" stroke-width="9" opacity=".72">
+  <path d="M0 842h190M245 842h180M470 842h120M655 842h225M940 842h145M1140 842h250M1450 842h150"/>
+  <path d="M80 900h170M320 900h250M650 900h190M920 900h270M1280 900h220"/>
+</g>
+<g stroke="#222A38" stroke-width="14" stroke-linecap="square">
+  <path d="M500 485v150"/><path d="M780 455v165"/><path d="M1060 420v175"/>
+</g>
+<rect x="467" y="500" width="66" height="105" rx="6" fill="#F26F61" stroke="#1E2736" stroke-width="10"/>
+<rect x="747" y="480" width="66" height="105" rx="6" fill="#45B878" stroke="#1E2736" stroke-width="10"/>
+<rect x="1027" y="445" width="66" height="105" rx="6" fill="#45B878" stroke="#1E2736" stroke-width="10"/>
+<path d="M530 468c120-160 250-158 270 6 65-108 148-116 228-46" fill="none" stroke="#FFF8F0" stroke-width="14" stroke-dasharray="16 14" stroke-linecap="round"/>
+<g transform="translate(675 250)" fill="#F59A28" stroke="#1B2433" stroke-width="12" stroke-linejoin="round">
+  <path d="M0 65l35-22 18-38 23 24 32-12 26 35 49 5-22 37-50 22-58-6-32-28z"/>
+  <path d="M82 34l18-29 18 31"/>
+  <circle cx="124" cy="61" r="5" fill="#1B2433" stroke="none"/>
+</g>
+</svg>

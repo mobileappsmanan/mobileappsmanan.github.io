@@ -227,7 +227,7 @@ img {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background: var(--rose);
+  background: var(--right-accent);
 }
 
 .copy-foot {
@@ -385,8 +385,8 @@ img {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  color: var(--rose);
-  background: rgba(192,117,125,0.12);
+  color: var(--right-accent);
+  background: color-mix(in srgb, var(--right-accent) 14%, transparent);
   font-size: 0.68rem;
 }
 
@@ -454,7 +454,7 @@ img {
 
 .card-category {
   margin: 0 0 8px;
-  color: var(--rose);
+  color: var(--right-accent);
   font-size: 0.67rem;
   font-weight: 800;
   letter-spacing: 0.14em;
