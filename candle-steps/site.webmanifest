@@ -1,0 +1,9 @@
+{
+  "name": "CandleSteps",
+  "short_name": "CandleSteps",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF7EF",
+  "theme_color": "#FAF7EF",
+  "icons": [{"src": "assets/images/app-icon.png", "sizes": "512x512", "type": "image/png"}]
+}
