@@ -28,11 +28,10 @@ Upload the **contents inside this folder** to the root of your
 
 Do not upload the enclosing folder as a nested directory.
 
-## Remaining release edit
+## Current public release state
 
 The developer and support email is configured as `mobileapps.manan@gmail.com`.
-
-Replace the root `app-ads.txt` placeholder with the exact personalised line supplied by Google AdMob before verification.
+The root `app-ads.txt` contains the verified publisher record. Day's Bake, Paws Above and CandleSteps are available on Google Play, and each app page links to its public listing, privacy policy and support page.
 
 ## Adding another app later
 
